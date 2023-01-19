@@ -7,8 +7,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDaoJDBCImpl implements UserDao {
-    public static Connection connection = Util.getConnection();
+/*public class UserDaoJDBCImpl implements UserDao {
+  public static Connection connection = Util.getConnection();
     public UserDaoJDBCImpl() {
 
     }
@@ -86,4 +86,4 @@ public class UserDaoJDBCImpl implements UserDao {
             throw new RuntimeException(e);
         }
     }
-}
+}*/
